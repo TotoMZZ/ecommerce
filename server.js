@@ -1,5 +1,4 @@
 import express from 'express'
-
 import RouterProductos from './router/productos.js'
 import config from './config.js'
 
@@ -7,6 +6,9 @@ class Server {
 
     start() {
         const app = express()
+
+        app.use(express.static('public'))
+
         app.use(express.json())
 
         //--------- Rutas / endpoints API RESTful ------

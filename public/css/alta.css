@@ -1,0 +1,230 @@
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+main h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 10px;
+
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 55px #0009;
+
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.group1,
+.group2 {
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 55px #0009;
+
+    border-radius: 15px;
+
+    /* transition: transform 0.3s ease; */
+}
+
+/* .group1:hover, .group2:hover{
+    transform: scale(1.01);
+
+} */
+
+.input-group {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+main form .form-group label {
+    display: block;
+    text-align: center;
+    margin: 20px 0 5px 0;
+}
+
+main form .form-group input {
+    width: 70%;
+    /* height: 100%; */
+}
+
+.input-checkbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: white;
+    background-color: #333;
+    width: 10%;
+    padding: 0.5rem;
+    border: 1px solid #222;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #0009;
+
+}
+
+.input-checkbox label{
+    margin-right: 10px;
+}
+
+.btn {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.alta-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.alta-form button:hover {
+    transform: scale(1.03);
+}
+
+main input, textarea {
+    background-color: #333;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+
+main textarea {
+    resize: vertical;
+    min-height: 3vh;
+    max-height: 80px;
+
+    min-width: 70%;
+}
+
+.h2 h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 10px;
+
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 55px #0009;
+
+}
+
+th, td {
+    border: 1px solid #999;
+    width: 80px;
+    /* height: 30px; */
+    padding: 10px;
+    background-color: #b3b3b3;
+
+}
+
+th {
+    text-transform: uppercase;    
+    background-color: #111;
+    color: white;
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    /* border: 1px solid white; */
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+td button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.editar-btn{
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.editar-btn:active{
+    background-color: rgba(80, 179, 76, 0.671);
+}
+
+.borrar-btn{
+    background-color: red;
+    border: 1px solid red;
+    
+}
+
+.borrar-btn:active{
+    background-color: rgba(255, 0, 0, 0.671);
+}
+
+#guardar-btn.actualizar {
+    background-color: #FF9800; /* Naranja para "Actualizar Producto" */
+}
+
+/* main input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+} */
+
+/*.alta-form{
+    background-color: #333333;
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+main label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+main input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.input-group{
+    text-align: center;
+    padding: 3px;
+}
+
+main button{
+    background-color: #4CAF50;
+    color: white;
+    display: block;
+    margin: 15px auto;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 20px;
+} */
