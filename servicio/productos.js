@@ -1,4 +1,4 @@
-import ModelFactory from "../modelo/DAOs/productosFactory.js"
+import ModelFactory from "../modelo/DAOs/productos/productosFactory.js"
 
 import config from "../config.js"
 

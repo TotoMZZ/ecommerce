@@ -6,17 +6,17 @@ class ModelFactory {
     static get(tipo) {
         switch (tipo) {
             case 'MEM':
-                console.log('*** Persistiendo en Memoria ***')
+                console.log('*** Productos: Persistiendo en Memoria ***')
                 return new ModelMem()
 
             case 'FILE':
-                console.log('*** Persistiendo en FileSystem ***')
+                console.log('*** Productos: Persistiendo en FileSystem ***')
                 return new ModelFile()
             case 'MONGODB':
-                console.log('*** Persistiendo en MONGODB ***')
+                console.log('*** Productos: Persistiendo en MONGODB ***')
                 return new ModelMongoDB()
             default:
-                console.log('*** Persistiendo en Memoria (default) ***')
+                console.log('*** Productos: Persistiendo en Memoria (default) ***')
 
                 return new ModelMem()
         }

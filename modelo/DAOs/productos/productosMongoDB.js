@@ -1,5 +1,5 @@
 import { ObjectId } from "mongodb"
-import CnxMongoDB from "../DBMongo.js"
+import CnxMongoDB from "../../DBMongo.js"
 
 class ModelMongoDB {
 
@@ -32,7 +32,7 @@ class ModelMongoDB {
 
         await CnxMongoDB.db.collection('productos').updateOne(
             { _id: ObjectId.createFromHexString(id) },
-            {$set: producto}
+            { $set: producto }
         )
 
         const productoActializado = await this.obtenerProducto(id)
@@ -47,4 +47,5 @@ class ModelMongoDB {
         return productoEliminado
     }
 }
+
 export default ModelMongoDB
