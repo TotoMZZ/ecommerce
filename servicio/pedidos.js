@@ -14,7 +14,7 @@ class Servicio {
     }
 
     guardarPedidos = async pedido => {
-        const pedidoGuardado = await this.model.guardarPedidos(pedido)
+        const pedidoGuardado = await this.model.guardarPedido(pedido)
         return pedidoGuardado
     }
 }
